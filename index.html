@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Course Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Personalized Course Eligibility Checker</h1>
+
+    <div class="details">
+        <p><strong>Student Name:</strong> Kalyani Bile</p>
+        <p><strong>Roll Number:</strong> 55</p>
+        <p><strong>Subject Name:</strong> Advanced Web Technology</p>
+        <p><strong>Subject Code:</strong> 23UITPCL3508</p>
+    </div>
+
+    <form id="courseForm">
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Roll Number</label>
+        <input type="text" id="roll" placeholder="Enter Roll Number">
+
+        <label>Age</label>
+        <input type="number" id="age">
+
+        <label>Attendance Percentage</label>
+        <input type="number" id="attendance">
+
+        <label>JavaScript Test Marks</label>
+        <input type="number" id="marks">
+
+        <button type="submit">Check Eligibility</button>
+
+    </form>
+
+    <h2 id="result"></h2>
+
+    <h2>Preferred Learning Topics</h2>
+
+    <ul id="topics"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
